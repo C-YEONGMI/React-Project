@@ -1,0 +1,112 @@
+.inner {
+    width: 1400px; 
+    margin: 0 auto; 
+    position: relative;
+}
+
+.total-count{
+    font-size: 20px;
+    color: #9E9E9E;
+    margin-top:32px ;
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+
+/* 테이블 기본 디자인 */
+.board-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 2px solid #333;
+    margin-bottom: 64px;
+    font-size: 20px;
+}
+
+.board-table th, .board-table td {
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+
+.board-table thead {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+
+.board-table tbody {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+
+.btn-delete {
+    width: 72px;
+    height: 32px;
+    color: #333333;
+    background-color: #ffd95a;
+    border: none;
+    padding: 4px 4px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.board-table thead tr th {
+    position: relative;
+}
+.board-table thead tr th:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 20%; /* 위에서 20% 내려옴 */
+    height: 60%; /* 전체의 60% 높이만 차지 */
+    width: 1px;
+    background-color: #e0e0e0;
+}
+
+/* 테이블 너비 지정 */
+.board-table thead tr th:nth-child(1) { width: 145px; }  /* 번호 */
+.board-table thead tr th:nth-child(2) { width: 687; }  /* 제목 */
+.board-table thead tr th:nth-child(3) { width: 178px; } /* 작성자 */
+.board-table thead tr th:nth-child(4) { width: 165px; } /* 작성일 */
+.board-table thead tr th:nth-child(5) { width: 90px; }  /* 조회수 */
+.board-table thead tr th:nth-child(6) { width: 90px; }  /* 좋아요 */
+.board-table thead tr th:nth-child(7) { width: 85px; } /* 관리 */
+
+.board-table tbody tr td:nth-child(2) {
+    text-align: left;
+    padding-left: 20px;
+}
+
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 96px;
+}
+
+.pagination a, 
+.pagination span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    text-decoration: none;
+    color: #666;
+}
+
+.pagination a.active {
+    font-weight: bold;
+    color: #000;
+}
+
+.board-table td a {
+text-decoration: none; 
+color: #333333;    
+}

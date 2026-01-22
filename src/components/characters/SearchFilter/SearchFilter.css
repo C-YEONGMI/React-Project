@@ -1,0 +1,47 @@
+/* 검색바-사용자필터 영역 */
+.search-bar-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 96px;
+    margin-bottom: 32px;
+}
+
+.search-input-wrap input {
+    font-size: 24px;
+    outline: none;
+    width: 300px;
+    height: 48px;
+    border: 1px solid #737373;
+    border-radius: 8px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.btn-search {
+    background: #FFD966;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 71px;
+    height: 48px;
+    font-size: 24px;
+    color: #333333;
+    padding: 0;
+    margin-left: 29px;
+}
+
+
+#sort-select {
+    width: 214px;  
+    height: 48px;    
+    padding: 0 15px;
+    border: 1px solid #5A5A5A;
+    border-radius: 8px; 
+    background-color: #fff;
+    font-size: 16px; 
+    font-family: 'Pretendard', sans-serif;
+    cursor: pointer;
+    outline: none;
+
+}

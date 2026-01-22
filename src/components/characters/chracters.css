@@ -1,0 +1,128 @@
+.inner {
+    width: 1400px; 
+    margin: 0 auto; 
+    position: relative;
+}
+
+.sub-page.characters {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-page.characters {
+    padding: 96px 0;
+    background-color: #fff;
+}
+
+/* 헤더 타이틀 영역 */
+.sub-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.sub-header .sub-title {
+    font-size: 18px;
+    color: #888;
+    text-transform: lowercase;
+    margin-bottom: 10px;
+}
+
+.sub-header .main-title {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+/* 필터 내비게이션 */
+.filter-nav .menu-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+    margin-bottom: 50px;
+}
+
+.menu-item button {
+    padding: 12px 30px;
+    border-radius: 50px; 
+    border: none;
+    background-color: #e0e0e0; 
+    color: #333333;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* 활성화(전체) 버튼 스타일 */
+.menu-item.active button {
+    background-color: #FFD966;
+    color: #333333;
+}
+
+
+/* 3열 그리드 레이아웃 */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    column-gap: 40px; /* 카드 사이 좌우 간격 */
+    row-gap: 80px;   /* 카드 사이 상하 간격 */
+    
+    /* ul 태그 기본 스타일 초기화 */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* 개별 카드 (li) */
+.char-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #5A5A5A;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.char-card .sub-info {
+    display: block; 
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.char-card .img-box {
+    width: 100%; 
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.char-card .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* 텍스트 영역 스타일링 */
+.char-card .name {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.char-card .tags {
+    margin-top: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px; 
+}
+
+.char-card .tag {
+    margin-top: 28px;
+    color: #3E4CE9; 
+    font-weight: 500;
+}
+

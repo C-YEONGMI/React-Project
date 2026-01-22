@@ -1,0 +1,78 @@
+/* =====================footer================== */
+#footer {
+    width: 100%;
+    background-color: #F5EEDC; /* 이미지의 부드러운 베이지 배경색 */
+    padding: 80px 0 40px 0;    /* 상단 여유와 하단 카피라이트 공간 */
+    color: #333;
+}
+
+#footer .inner {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.footer-info {
+    width: 60%;
+}
+
+.footer-info .logo-main {
+    font-family: 'MomLetter';
+    font-size: 60px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+.footer-info .logo-sub {
+    display: block;
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    color: #666;
+}
+
+.footer-info .desc {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+}
+
+/* 2. 오른쪽 내비게이션 영역 */
+.footer-nav {
+    display: flex;
+    flex-direction: column; /* 세로로 나열 */
+    gap: 20px;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.footer-nav .btmv {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.footer-nav .btmv:hover {
+    color: #4A707A;
+}
+
+/* 3. 하단 카피라이트 영역 (선을 기준으로 하단 배치) */
+.copy-area {
+    width: 100%;
+    margin-top: 60px;
+    padding-top: 30px;
+    border-top: 1px solid #D9D2C2; /* 이미지의 연한 구분선 */
+}
+
+.copy-area .copy {
+    font-family: 'Pretendard', sans-serif;
+    font-size: 0.9rem;
+    color: #999;
+    letter-spacing: 0.5px;
+}

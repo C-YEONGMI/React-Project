@@ -1,0 +1,73 @@
+
+/* Story 페이지 루트 */
+.story-page {
+  width: 100%;
+}
+
+.story-page .main-visual {
+  width: 100%;
+  height: 779px; 
+}
+
+.story-page .visual-bg {
+  width: 100%;
+  height: 779px;
+  background: url('../../../../public/images/Story-banner.jpg') no-repeat center / cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.story-page .main-visual .inner {
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.story-page .visual-text {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.story-page .visual-text .title {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 64px;
+  font-weight: 900;
+  letter-spacing: 4px;
+  margin-bottom: 24px;
+}
+
+.story-page .visual-text .subtitle {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+.story-page .visual-text .desc {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 60px;
+  word-break: keep-all;
+}
+
+.story-page .visual-bottom {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.story-page .visual-bottom .line {
+  width: 1px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.4);
+}

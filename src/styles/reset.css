@@ -1,0 +1,33 @@
+/* Pretendard (CDN)*/
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css");
+
+/* Nanum Myeongjo  */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* 폰트 적용은 한 번만 명시 */
+  font-family: 'Pretendard';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  width: 100%;
+}
+
+/* 3. 컴포넌트용 공통 스타일 */
+button, input, textarea, select {
+  font-family: inherit;
+}
+
+.mom-font {
+  font-family: 'MomLetter', 'Pretendard', sans-serif;
+}
